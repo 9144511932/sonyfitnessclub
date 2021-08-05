@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+<script src="js/bootstrap.bundle.min.js"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+</head>
+<style>
+    .div1{
+     background-color: black;
+     width: 100%;
+     height: 400px;
+     color: white;
+     font-size: 30px;
+     position: absolute;
+  }
+   .slide1{
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+    }
+  .span1{
+     margin-left: 200px;
+    margin-top: 15px;
+    font-size: 80px;
+   }
+  .span2{
+      color: red;
+      margin-top: 15px;
+ 
+  }
+  .span3{
+      color: red;
+      margin-top: 50px;
+ 
+  }
+  .span4{
+      margin-left: 350px;
+  }
+  .span5{
+      font-size: 60px;
+    color: red;
+  }
+.span7{
+    font-size: 60px;
+    color: red;
+}
+.img1{
+   width: 100%;
+   height: 400px; 
+   margin-top: 100px;
+}
+.h1{
+    margin-left: 500px;
+   margin-top: 100px;    
+}
+.p1{
+    margin-left: 420px;
+   font-size: 20px;
+}
+.sp1{
+    margin-left: 100px;
+}
+.sp2{
+    margin-left: 600px;
+    margin-top: 100px;
+}
+.sp3{
+    margin-left: 100px;
+   margin-top: 10px;
+}
+.sp4{
+    margin-left: 600px;
+}
+.fitness{
+    margin-left: 20px;
+   width: 600px;
+}
+.fitness1{
+    margin-left: 20px;
+   width: 600px;
+}
+.indoor{
+    margin-left: 50px;
+    width: 600px;
+}
+.indoor1{
+    margin-left: 680px;
+    margin-top: -57px;
+}
+.poweryoga{
+    margin-left: 20px;
+   width: 600px;
+   height: 350px;
+}
+.cardiofitness{
+    margin-left: 50px;
+    width: 600px;
+    
+}
+.poweryoga1{
+    margin-left: 20px;
+   width: 600px;
+   height: 350px;
+   margin-top: 80px;
+}
+.cardiofitness1{
+    margin-left: 680px;
+    width: 600px;
+    margin-top: -350px;
+}
+.div2{
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    margin-top: 50px;
+}
+.fb{
+    margin-left: 250px;
+    width: 30px;
+    height: 30px;
+   margin-top: 50px;
+   border-radius: 8px;
+}
+.logo{
+    margin-left: 30px;
+    width: 30px;
+    height: 30px;
+   margin-top: 50px;
+   border-radius: 8px;
+}
+.twitter{
+    margin-left: 30px;
+    width: 30px;
+    height: 30px;
+   margin-top: 50px;
+   border-radius: 8px;
+}
+.last{
+    color: white;
+    font-size: 12px;
+    margin-left: 520px;
+    margin-top: 20px;
+    
+}
+.slider-box{
+    width: 100%;
+    height: 300px;
+
+}
+.slider{
+    width: 100%;
+    display: inline-flex;
+}
+
+.slider img{
+    width: 100%;
+    height: 700px;
+}
+.indicators{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translatex(10%);
+}
+.indicators span{
+    display: inline-block;
+    width: 10px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgba(255, 300 ,255, 0.5);
+    cursor: pointer;
+}
+.dv2{
+    margin-top: 0px;
+}
+
+</style>
+<header class="container-fluid">
+    <div class="row">
+      <div class="col bg-primary">
+            <nav class="navbar navbar-light">
+                  <div class="container-fluid">
+                      <a class="navbar-brand" href="#" style="color:red">
+                          <img src="img/logo.jpg" alt="" width="40" height="40" class="d-inline-block align-text-top">
+                          Sony Fitness club
+                      </a>
+        </div>
+      </nav>
+      </div>
+    </div>
+  </header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="connect1.html" style="color:white"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav" >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="connect1.html" style="color:whit</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Features.html"style="color:white"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color:white"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true" style="color:white"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+    <div class="dv2" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/gym6.jpg" class="d-block w-100" alt="..." style="height:40rem">
+        </div>
+        <div class="carousel-item">
+          <img src="img/gym4.jpg" class="d-block w-100" alt="..." style="height:40rem">
+        </div>
+        <div class="carousel-item">
+          <img src="img/gym5.jpg" class="d-block w-100" alt="..." style="height:40rem">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
+</div>
+ <div >
+     <h1 class="h1"> CLASSES THE GYM</h1>
+     <p class="p1">Take care of your body. It's the only place you have to live.</p>
+     <h2 > <span class="sp1">GYM FITNESS</span><span class="sp2">INDOOR CYCLING</span></h2>
+     <div><img class="fitness" src="img/fitness.jpg" alt="">
+      <img class="indoor" src="img/indoorcycle.jpg" alt="">
+     </div>
+    </div >
+    <div class="fitness1">
+        Exercise and rest are the cornerstones of improving your quality of life. It's not always easy but it's always worth it. When you find a fitness routine you enjoy, you'll feel better, look better and be happier in your own skin. 
+        
+    </div>
+    <div class="indoor1">
+        Cycling is a great form of exercise as well as a practical way to get around, but it also carries <br>the risk of significant injury, especially head injury. involves using a special stationary exercise<br> bicycle with a weighted flywheel in a classroom setting.
+    </div>
+    <div>
+        <h2 > <span class="sp3">POWER YOGA</span><span class="sp4">CARDIO FITNESS</span></h2>
+     
+        <img class="poweryoga" src="img/poweryoga.jpg" alt="">
+        <img class="cardiofitness" src="img/cardiofitness.jpg" alt="">
+       </div>
+      <div class="poweryoga">
+        one up, slim down, and find balance with this high-energy summer workout from power yoga. It brings inner peace, a spiritual boost, and an unparalleled measure of serenity.Power yoga is a general term used to describe a vigorous.
+      </div>
+      <div class="cardiofitness1"> 
+        Cardio fitness is important to everyone. Quality cardio workouts can help everybody reach their health and fitness goals, whether those goals include new personal records for competition, lowering blood pressure, reducing cholesterol levels, managing diabetes.
+      </div>
+      <h2 > <span class="sp1">CARDIO KICK BOXING</span><span class="sp2">AEROBICS CLASSES</span></h2>
+      <div><img class="fitness" src="img/cardiokick.jpg" alt="">
+       <img class="indoor" src="img/aerobicclass.jpg" alt="">
+      </div>
+     </div >
+     <div class="fitness1">
+        Kickboxing not only gives you that fab figure, but also makes you stronger. Kickboxing has been a rage with fitness enthusiasts for some time now. For many people, it is a 'cool' workout option compared to gymming, which can be monotonous.
+     </div>
+     <div class="indoor1">
+        Aerobic exercises, which includes walking, running, and swimming, has been proven to be an effective way for burning fat and losing weight. Aerobic exercise was also a more efficient method of exercise for losing body fat.</div>
+     <div>
+         <h2 > <span class="sp3">STRENGTH CLASSES</span><span class="sp4">ZUMBA CLASSES</span></h2>
+      
+         <img class="poweryoga" src="img/strength1.jpg" alt="">
+         <img class="cardiofitness" src="img/zumba1.jpg" alt="">
+        </div>
+       <div class="poweryoga1">
+         one up, slim down, and find balance with this high-energy summer workout from power yoga. It brings inner peace, a spiritual boost, and an unparalleled measure of serenity.Power yoga is a general term used to describe a vigorous.
+       </div>
+       <div class="cardiofitness1"> 
+        Are you ready to party yourself into shape? Forget the workout, just lose yourself in the music and find yourself in shape with fitness dance at The Gym. Zumba classes feature exotic rhythms set to high-energy Latin and international beats.</div>
+       
+    
+    <div class="div2">
+    <a class="fb" href="http://facebook.com"> <img class="fb" src="img/fb.logo.jpg" alt=""  width="20px" height="20px"></a>
+    <a href="http://instagram.com"><img class="logo" src="img/insta.logo.jpg" alt=""></a>
+     <a href="http://twitter.com"><img class="twitter"  src="img/twiter.jpg" alt=""></a>
+    <h2 class="last">The Gym © 2019 Sony fitness Pvt. Ltd.</h2>
+    </a>
+    
+    </div> 
+    
+    </body>
+</html>
